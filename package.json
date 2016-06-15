@@ -1,0 +1,14 @@
+{
+  "name": "node_path_test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "print_number": "NODE_PATH=. babel-node top-level-file.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
